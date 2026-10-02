@@ -1,0 +1,51 @@
+body {
+  font-size: 10px;
+  background: url("./image/drum.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.keys {
+  display: flex;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  flex: 1;
+  border: 4px solid hotpink;
+  color: whitesmoke;
+  margin: 4px;
+  font-size: 20px;
+  padding: 16px 8px;
+  text-align: center;
+  transition: all 0.7s ease;
+  background-color: #000040;
+  text-shadow: 0 0 8px black;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: aqua;
+  box-shadow: 0 0 1rem #ffc700;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffc700;
+}
